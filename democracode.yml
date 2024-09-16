@@ -1,0 +1,4 @@
+N_CANDIDATES: 5  # Amount of candidates that will be selected for the vote
+VOTING_INTERVAL: 7  # Every x days a voting should take place
+MIN_APPROVAL_RATE: 70  # Minimum approval rate required (in %), for a candidate to be merged into the source
+VOTING_DURATION: 2  # Amount of days the voting should last. When the time is up, the results are calculated automatically and a new iteration begins
