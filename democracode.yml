@@ -1,12 +1,12 @@
 N_CANDIDATES:
-  - value: 5
-  - desc: "Amount of candidates that will be selected for the vote. Selection is based on the most upvotes gathered in the VOTING_INTERVAL period."
+  value: 5
+  desc: "Amount of candidates that will be selected for the vote. Selection is based on the most upvotes gathered in the VOTING_INTERVAL period."
 VOTING_INTERVAL:
-  - value: 7
-  - desc: "Every x days a voting should take place."
+  value: 7
+  desc: "Every x days a voting should take place."
 MIN_APPROVAL_RATE:
-  - value: 70
-  - desc: "Minimum approval rate required (in %) for a candidate to be merged into the source."
+  value: 70
+  desc: "Minimum approval rate required (in %) for a candidate to be merged into the source."
 VOTING_DURATION:
-  - value: 2
-  - desc: "Amount of days the voting should last. When the time is up, the resulting approval rates of each candidate are calculated automatically and a new iteration begins."
+  value: 2
+  desc: "Amount of days the voting should last. When the time is up, the resulting approval rates of each candidate are calculated automatically and a new iteration begins."
